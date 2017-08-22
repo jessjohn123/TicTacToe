@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe_JessicaJohn</string>
+    <string name="playervsplayer">Player Vs Player</string>
+    <string name="playervscomputer">Player Vs Computer</string>
+    <string name="computervscomputer">Computer Vs Computer</string>
+    <string name="easy">Difficulty: Easy</string>
+    <string name="medium">Difficulty: Medium</string>
+    <string name="hard">Difficulty: Hard</string>
+    <string name="credits">Credits</string>
+</resources>

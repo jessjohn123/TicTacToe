@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_title">50dp</dimen>
+    <dimen name="menu_subtitle">20dp</dimen>
+    <dimen name="menu_option">25dp</dimen>
+
+</resources>

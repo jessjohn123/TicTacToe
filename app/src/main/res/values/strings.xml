@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">TicTacToe_JessicaJohn</string>
-    <string name="playervsplayer">Player Vs Player</string>
-    <string name="playervscomputer">Player Vs Computer</string>
-    <string name="computervscomputer">Computer Vs Computer</string>
-    <string name="easy">Difficulty: Easy</string>
-    <string name="medium">Difficulty: Medium</string>
-    <string name="hard">Difficulty: Hard</string>
-    <string name="credits">Credits</string>
+    <string name="GameName">Tic-Tac-Toe</string>
+    <string name="Start">Start!!</string>
+    <string name="PVP">Player vs. Player</string>
+    <string name="PVC">Player vs. Computer</string>
+    <string name="CVC">Computer vs. Computer</string>
+    <string name="DEasy">Difficulty: Easy</string>
+    <string name="DMedium">Difficulty: Medium</string>
+    <string name="DHard">Difficulty: Hard</string>
+    <string name="Credit">Credits</string>
+    <string name="X">Winner X</string>
+    <string name="O">Winner O</string>
+    <string name="Draw">DRAW</string>
 </resources>

@@ -1,91 +1,80 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="edu.fullsail.mgms.cse.tictactoe.jessicajohn.MenuActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1.75"
-        android:gravity="center">
+    <TextView
+        android:id="@+id/Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Start"
+        android:textSize="@dimen/menu_title"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/Title"
+        android:layout_alignStart="@+id/difficulty" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Tic_Tac_Toe"
-            android:textSize="@dimen/menu_title"
-            android:textStyle="bold"
-            android:layout_marginTop="100dp" />
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GameName"
+        android:textSize="@dimen/menu_title"
+        android:textStyle="bold"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/pvptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PVP"
+        android:textSize="@dimen/menu_subtitle"
+        android:textStyle="bold"
+        android:layout_marginTop="133dp"
+        android:layout_alignTop="@+id/Start"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/cvptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PVC"
+        android:textSize="@dimen/menu_subtitle"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/pvptext"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/cvctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CVC"
+        android:textSize="@dimen/menu_subtitle"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/cvptext"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DEasy"
+        android:textSize="@dimen/menu_subtitle"
+        android:textStyle="bold"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/cvctext"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Credit"
+        android:textSize="@dimen/menu_subtitle"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/difficulty"
+        android:layout_centerHorizontal="true" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="The Game"
-            android:textSize="@dimen/menu_subtitle"
-            android:textStyle="bold" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/playervsplayer"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/playervscomputer"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/computervscomputer"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/playervscomputer"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/easy"
-            android:id="@+id/diffButton"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/credits"
-            android:textSize="@dimen/menu_option"
-            android:textStyle="normal"
-            android:textAllCaps="false"
-            android:background="@android:color/transparent"/>
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
